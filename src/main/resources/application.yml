@@ -1,0 +1,10 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost/jdbc:mysql://localhost/thyeducation?useTimezone=true&serverTimezone=UTC
+        username: root
+        password: 88822666
+
+---
+
+server:
+    port: 8090

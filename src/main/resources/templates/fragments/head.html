@@ -1,0 +1,24 @@
+<head th:fragment="head">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta id="_csrf" name="_csrf" th:content="${_csrf.token}">
+    <meta id="_csrf_header" name="_csrf_header" th:content="${_csrf.headerName}">
+    <!-- <link rel=icon href=images/favicon.ico type="image/jpg"> -->
+    <!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> -->
+    <link rel="shortcut icon" type="image/png" href="images/thy-technic.jpg"/>
+    
+    
+    <title>Turkish Technic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" th:href="@{/css/button.css}">
+    <link rel="stylesheet" th:href="@{/css/nav.css}">
+
+    <!--
+    <header>
+        <figure>
+            <img src="/images/thy-technic.jpg" alt="Logo" />
+        </figure>
+    </header>
+    -->
+</head>
